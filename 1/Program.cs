@@ -1,7 +1,11 @@
-﻿Console.WriteLine("Является ли число а квадратом числа b?");
-
-int a = 5;
-int b = 25;
+﻿Console.WriteLine("Является ли первое число квадратом второго?");
+int a;
+Console.Write("Введите число 1 : ");
+ a = int.Parse(Console.ReadLine());
+int b;
+Console.Write("Введите число 2 : ");
+ b = int.Parse(Console.ReadLine());
+ 
 
 if (b == a * a)
 
